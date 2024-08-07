@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Data name="UnitData" virsion="1.0">
+
+<!--ユニットテーブル-->
+  <!--火山-->
+  <Unit>
+    <Par num ="0" name="燃える髑髏" source="火山/燃える骸骨.png" hp="40" attack="25" speed="30"  />
+    <Cmd > 100, 100, 101, 101, 102, 102, 0, 3</Cmd>
+  </Unit>
+  <Unit>
+    <Par num ="1" name="ガスモーク" source="火山/ガスモーク.png" hp="60" attack="15" speed="55"/>
+    <Cmd > 103, 103, 104, 104, 105, 105, 0, 3</Cmd>
+  </Unit>
+  <Unit>
+    <Par num ="2" name="オオコウモリ" source="火山/オオコウモリ.png" hp="75" attack="15" speed="65"  />
+    <Cmd > 106, 106, 107, 107, 107, 0, 0, 3</Cmd>
+  </Unit>
+  
+  <Unit>
+    <Par num ="3" name="太陽さん" source="火山/太陽さん.png" hp="170" attack="45" speed="25"/>
+    <Cmd > 3, 0, 0, 108, 108, 109, 109, 110</Cmd>
+  </Unit>
+  <Unit>
+    <Par num ="4" name="石人形" source="火山/石人形.png" hp="200" attack="27" speed="15"/>
+    <Cmd > 113, 112, 112, 111, 113, 3, 3, 3</Cmd>
+  </Unit>
+  <Unit>
+    <Par num ="5" name="ヒトダマ" source="火山/ヒトダマ.png" hp="120" attack="30" speed="65" />
+    <Cmd > 116, 115, 115, 114, 114, 114, 0, 0</Cmd>
+  </Unit>
+  
+  <Unit>
+    <Par num ="6" name="妖狐" source="火山/妖狐.png" hp="240" attack="55" speed="50"/>
+    <Cmd > 1, 1, 4, 4, 117, 117, 118, 119</Cmd>
+  </Unit>
+  <Unit>
+    <Par num ="7" name="三頭竜" source="火山/三頭竜.png" hp="260" attack="75" speed="20" />
+    <Cmd > 1, 1, 1, 120, 120, 121, 121, 122</Cmd>
+  </Unit>
+  <Unit>
+    <Par num ="8" name="アモン" source="火山/アモン.png" hp="220" attack="65" speed="65" />
+    <Cmd > 125, 124, 123, 123, 124, 3, 3, 1</Cmd>
+  </Unit> 
+  
+  <Unit>
+    <Par num ="9" name="火龍" source="火山/火龍.png" hp="400" attack="80" speed="40" />
+    <Cmd >  2, 2, 126, 127, 2, 2, 128, 129</Cmd>
+  </Unit> 
+  
+  <!--海-->
+  <Unit>
+      <Par num ="10" name="ライギョ" source="海/ライギョ.png" hp="70" attack="25" speed="40" />
+      <Cmd>  0, 0, 200, 201, 202, 202, 4, 4</Cmd>
+  </Unit> 
+	<Unit>
+      <Par num ="11" name="カクレガイ" source="海/カクレガイ.png" hp="100" attack="10" speed="60" />
+      <Cmd>  206, 206, 207, 207, 208, 208, 3, 3</Cmd>
+  </Unit> 
+  <Unit>
+      <Par num ="12" name="モチフニャ" source="海/モチフニャ.png" hp="50" attack="10" speed="55" />
+      <Cmd>  3, 3, 203, 203, 204, 204, 205, 205</Cmd>
+  </Unit> 
+	
+  <Unit>
+      <Par num ="13" name="クラーケン" source="海/クラーケン.png" hp="167" attack="45" speed="30" />
+      <Cmd>  0, 0, 210, 209, 209, 210, 211, 211</Cmd>
+  </Unit> 
+	<Unit>
+      <Par num ="14" name="海の守護像" source="海/海の守護像.png" hp="195" attack="22" speed="5" />
+      <Cmd>  212, 212, 213, 213, 214, 214, 3, 3</Cmd>
+  </Unit> 
+  <Unit>
+      <Par num ="15" name="北風さん" source="海/北風さん.png" hp="155" attack="40" speed="50" />
+      <Cmd>  215, 216, 217, 0, 0, 215, 216, 217</Cmd>
+  </Unit> 
+  
+  <Unit>
+      <Par num ="16" name="ゲンブ" source="海/ゲンブ.png" hp="280" attack="54" speed="15" />
+      <Cmd>  218, 218, 219, 219, 1, 1, 220, 220</Cmd>
+  </Unit> 
+	<Unit>
+      <Par num ="17" name="スピリットナイト" source="海/スピリットナイト.png" hp="240" attack="72" speed="40" />
+      <Cmd>  5, 221, 221, 222, 222, 1, 1, 3</Cmd>
+  </Unit> 
+  <Unit>
+      <Par num ="18" name="うみぼうず" source="海/うみぼうず.png" hp="295" attack="51" speed="6" />
+      <Cmd>  224, 224, 225, 226, 7, 1, 3, 3</Cmd>
+  </Unit> 
+  
+ 	<Unit>
+      <Par num ="19" name="水龍" source="海/水龍.png"  hp="400" attack="80" speed="65" />
+      <Cmd>  227, 227, 2, 2, 228, 228, 2, 229</Cmd>
+  </Unit>
+
+    <!--荒野-->
+    <Unit>
+        <Par num ="20" name="トロル" source="荒野/トロル.png" hp="90" attack="20" speed="10" />
+        <Cmd>  300, 300, 301, 301, 3, 3, 3, 0</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="21" name="とつげきピッグ" source="荒野/とつげきピッグ.png" hp="85" attack="18" speed="24" />
+        <Cmd>  0, 302, 302, 303, 303, 304, 304, 0</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="22" name="ミイラ" source="荒野/ミイラ.png" hp="60" attack="22" speed="12" />
+        <Cmd>  306, 306, 305, 307, 0, 3, 3, 306</Cmd>
+    </Unit> 
+	
+    <Unit>
+        <Par num ="23" name="ワイルドゴーレム" source="荒野/ワイルドゴーレム.png" hp="199" attack="29" speed="4"/>
+        <Cmd>  0, 0, 5, 5, 308, 308, 309, 310</Cmd>
+    </Unit> 
+	<Unit>
+        <Par num ="24" name="レオホース" source="荒野/レオホース.png" hp="155" attack="38" speed="57" />
+        <Cmd>  0, 311, 311, 311, 312, 312, 313, 311</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="25" name="フェアリースネイク" source="荒野/フェアリースネイク.png" hp="120" attack="30" speed="60" />
+        <Cmd>  315, 315, 314, 2, 2, 316, 316, 6</Cmd>
+    </Unit> 
+  
+    <Unit>
+        <Par num ="26" name="Ｔ-レックス" source="荒野/T-レックス.png" hp="216" attack="72" speed="44" />
+        <Cmd>  318, 0, 319, 4, 0, 317, 0, 4</Cmd>
+    </Unit> 
+	<Unit>
+        <Par num ="27" name="マミー" source="荒野/マミー.png" hp="211" attack="43" speed="20" />
+        <Cmd>  320, 320, 321, 0, 3, 322, 322, 321</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="28" name="異形の巨人" source="荒野/異形の巨人.png" hp="235" attack="62" speed="26" />
+        <Cmd>  301, 301, 0, 0, 7, 3, 324, 323</Cmd>
+    </Unit> 
+  
+ 	<Unit>
+        <Par num ="29" name="岩龍" source="荒野/岩龍.png"  hp="500" attack="80" speed="1" />
+        <Cmd>  326, 325, 2, 2, 326, 326, 2, 327</Cmd>
+    </Unit>
+
+    <!--森-->
+    <Unit>
+        <Par num ="30" name="スライム" source="森/スライム.png" hp="66" attack="15" speed="38" />
+        <Cmd>  400, 401, 401, 401, 3, 3, 3, 0</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="31" name="じんめんタケ" source="森/じんめんタケ.png" hp="54" attack="8" speed="48" />
+        <Cmd>  406, 0, 407, 5, 5, 407, 0, 406</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="32" name="マンドラゴラ" source="森/マンドラゴラ.png" hp="72" attack="19" speed="13" />
+        <Cmd>  409, 409, 0, 410, 410, 410, 0, 408</Cmd>
+    </Unit> 
+	
+    <Unit>
+        <Par num ="33" name="ヘドロスライム" source="森/ヘドロスライム.png" hp="199" attack="29" speed="4"/>
+        <Cmd>  3, 3, 401, 402, 401, 402, 0, 405</Cmd>
+    </Unit> 
+	<Unit>
+        <Par num ="34" name="フォレストマザー" source="森/フォレストマザー.png" hp="155" attack="31" speed="57" />
+        <Cmd>  413, 413, 412, 412, 411, 3, 3, 3</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="35" name="カーバンクル" source="森/カーバンクル.png" hp="120" attack="30" speed="60" />
+        <Cmd>  414, 0, 414, 0, 414, 415, 416, 416</Cmd>
+    </Unit> 
+  
+    <Unit>
+        <Par num ="36" name="キングスライム" source="森/キングスライム.png" hp="277" attack="61" speed="16" />
+        <Cmd>  404, 1, 402, 402, 402, 403, 1, 1</Cmd>
+    </Unit> 
+	<Unit>
+        <Par num ="37" name="クマー" source="森/クマー.png" hp="235" attack="70" speed="49" />
+        <Cmd>  417, 417, 418, 418, 1, 3, 417, 419</Cmd>
+    </Unit> 
+    <Unit>
+        <Par num ="38" name="トレント" source="森/トレント.png" hp="255" attack="55" speed="27" />
+        <Cmd>  422, 3, 1, 420, 420, 421, 421, 422</Cmd>
+    </Unit> 
+  
+ 	<Unit>
+        <Par num ="39" name="風龍" source="森/風龍.png"  hp="400" attack="80" speed="80" />
+        <Cmd>  424, 424, 2, 423, 423, 425, 2, 2</Cmd>
+    </Unit>
+
+	<!--聖域-->
+	<Unit>
+		<Par num ="40" name="ハッコウネズミ" source="聖域/ハッコウネズミ.png" hp="60" attack="15" speed="65" />
+		<Cmd>  500, 500, 500, 501, 501, 4, 4, 4</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="41" name="テイルラビット" source="聖域/テイルラビット.png" hp="68" attack="20" speed="49" />
+		<Cmd>  0, 502, 502, 503, 502, 502, 502, 0</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="42" name="フェアリーボット" source="聖域/フェアリーボット.png" hp="95" attack="22" speed="23" />
+		<Cmd>  504, 504, 504, 506, 0, 3, 505, 504</Cmd>
+	</Unit>
+
+	<Unit>
+		<Par num ="43" name="聖鹿" source="聖域/聖鹿.png" hp="170" attack="38" speed="44"/>
+		<Cmd>  507, 0, 5, 5, 508, 508, 509, 507</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="44" name="ライトワイバーン" source="聖域/ライトワイバーン.png" hp="148" attack="42" speed="50" />
+		<Cmd>  0, 511, 511, 511, 512, 512, 513, 511</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="45" name="ワーカー" source="聖域/ワーカー.png" hp="175" attack="40" speed="30" />
+		<Cmd>  513, 513, 314, 515, 0, 514, 514, 515</Cmd>
+	</Unit>
+
+	<Unit>
+		<Par num ="46" name="デカラビア" source="聖域/デカラビア.png" hp="250" attack="71" speed="16" />
+		<Cmd>  516, 517, 518, 0, 0, 0, 517, 516</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="47" name="聖域の番人" source="聖域/聖域の番人.png" hp="208" attack="69" speed="21" />
+		<Cmd>  519, 519, 521, 0, 3, 521, 520, 520</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="48" name="星の戦士" source="聖域/星の戦士.png" hp="230" attack="58" speed="31" />
+		<Cmd>  522, 523, 0, 0, 524, 523, 5, 5</Cmd>
+	</Unit>
+
+	<Unit>
+		<Par num ="49" name="聖龍" source="聖域/聖龍.png"  hp="450" attack="80" speed="40" />
+		<Cmd>  526, 527, 2, 2, 526, 525, 2, 525</Cmd>
+	</Unit>
+
+	<!--奈落-->
+	<Unit>
+		<Par num ="50" name="ゴースト" source="奈落/ゴースト.png" hp="50" attack="8" speed="58" />
+		<Cmd>  600, 600, 0, 601, 601, 601, 601, 0</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="51" name="ミミック" source="奈落/ミミック.png" hp="98" attack="14" speed="12" />
+		<Cmd>  602, 0, 603, 604, 604, 4, 4, 602</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="52" name="呪いの人形" source="奈落/呪いの人形.png" hp="66" attack="22" speed="28" />
+		<Cmd>  607, 607, 0, 0, 605, 606, 606, 606</Cmd>
+	</Unit>
+
+	<Unit>
+		<Par num ="53" name="オブサーバー" source="奈落/オブサーバー.png" hp="189" attack="27" speed="7"/>
+		<Cmd>  3, 3, 610, 610, 609, 609, 0, 608</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="54" name="ガーゴイル" source="奈落/ガーゴイル.png" hp="177" attack="36" speed="3" />
+		<Cmd>  613, 0, 0, 611, 611, 612, 612, 612</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="55" name="ジャックランタン" source="奈落/ジャックランタン.png" hp="140" attack="28" speed="55" />
+		<Cmd>  616, 0, 616, 0, 615, 615, 614, 614</Cmd>
+	</Unit>
+
+	<Unit>
+		<Par num ="56" name="アスタロト" source="奈落/アスタロト.png" hp="248" attack="65" speed="69" />
+		<Cmd>  619, 1, 618, 617, 617, 6, 1, 1</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="57" name="アークデーモン" source="奈落/アークデーモン.png" hp="255" attack="50" speed="40" />
+		<Cmd>  5, 622, 621, 620, 1, 3, 1, 5</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="58" name="マッドファントム" source="奈落/マッドファントム.png" hp="211" attack="63" speed="62" />
+		<Cmd>  623, 624, 1, 625, 625, 1, 624, 623</Cmd>
+	</Unit>
+
+	<Unit>
+		<Par num ="59" name="闇龍" source="奈落/闇龍.png"  hp="400" attack="85" speed="80" />
+		<Cmd>  626, 2, 2, 2, 2, 627, 627, 627</Cmd>
+	</Unit>
+	
+	
+	<!--初手手持ち-->
+	<Unit>
+		<Par num ="100" name="つかいま" source="その他/つかいま.png" hp="75" attack="23" speed="40" />
+		<Cmd>  711, 710, 4, 4, 4, 0, 709, 711 </Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="101" name="フェアリー" source="その他/フェアリー.png" hp="85" attack="20" speed="22" />
+		<Cmd>  708, 0, 0, 706, 706, 706, 707, 707</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="102" name="ゴーレム" source="その他/ゴーレム.png" hp="166" attack="48" speed="4" />
+		<Cmd>  702, 0, 0, 700, 701, 3, 700, 701</Cmd>
+	</Unit>
+	<Unit>
+		<Par num ="103" name="フロストレオ" source="その他/フロストレオ.png" hp="180" attack="39" speed="36" />
+		<Cmd>  3, 705, 705, 704, 704, 704, 703, 703</Cmd>
+	</Unit>
+
+	<!--デバック用-->
+	<Unit>
+      <Par num ="1000" name="殺戮" source="海/水龍.png"  hp="400" attack="300" speed="100" />
+      <Cmd>  7,7,7,7,7,7,7,7</Cmd>
+    </Unit>
+    <Unit>
+	  <Par num ="1001" name="バフマン" source="海/モチフニャ.png" hp="350" attack="210" speed="255" />
+	  <Cmd>  6,6,6,6,6,6,6,6</Cmd>
+    </Unit>
+
+
+
+
+
+</Data>

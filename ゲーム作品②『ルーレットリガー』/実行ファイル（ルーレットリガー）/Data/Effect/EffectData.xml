@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Data name="data" virsion="1.0">
+
+<!--エフェクト-->
+<!--ナンバー、パス、大きさ、オフセット値、単体or複数、-->
+  <!--火＿全体-->
+  <Effect num="0" path="Data/Effect/Fire_AllAttack1.efkefc" scale="60.0" offsetX="85" offsetY="80" target="0"/> 
+  <Effect num="1" path="Data/Effect/Fire_AllAttack2.efkefc" scale="45.0" offsetX="85" offsetY="80" target="0"/> 
+  <!--火＿エレメント-->
+  <Effect num="2" path="Data/Effect/Fire_Element1.efkefc"	scale="40.0" offsetX="85" offsetY="160" target="1"/>
+  <Effect num="3" path="Data/Effect/Fire_Element2.efkefc"	scale="30.0" offsetX="85" offsetY="150" target="1"/>
+  <Effect num="4" path="Data/Effect/Fire_Element3.efkefc"	scale="30.0" offsetX="85" offsetY="150" target="1"/>
+  <Effect num="5" path="Data/Effect/Fire_Element4.efkefc"	scale="40.0" offsetX="210" offsetY="80" target="1"/>
+  <Effect num="6" path="Data/Effect/Fire_Element5.efkefc"	scale="40.0" offsetX="85" offsetY="130" target="1"/>
+  <Effect num="7" path="Data/Effect/Fire_Element6.efkefc"	scale="30.0" offsetX="85" offsetY="120" target="1"/>
+  <!--火＿爆発-->
+  <Effect num="8"  path="Data/Effect/Fire_Explosion1.efkefc"  scale="25.0" offsetX="85" offsetY="120" target="1"/>
+  <Effect num="9"  path="Data/Effect/Fire_Explosion2.efkefc"  scale="10.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="10" path="Data/Effect/Fire_Explosion3.efkefc"  scale="30.0" offsetX="90" offsetY="80" target="1"/>
+  <Effect num="11" path="Data/Effect/Fire_Explosion4.efkefc"  scale="80.0" offsetX="85" offsetY="140" target="1"/>
+  <Effect num="12" path="Data/Effect/Fire_Explosion5.efkefc"  scale="50.0" offsetX="85" offsetY="160" target="1"/>
+  <Effect num="13" path="Data/Effect/Fire_Explosion6.efkefc"  scale="20.0" offsetX="85" offsetY="160" target="1"/>
+  <Effect num="14" path="Data/Effect/Fire_Explosion7.efkefc"  scale="30.0" offsetX="85" offsetY="80" target="1"/>
+   <!--火＿衝撃-->
+  <Effect num="15" path="Data/Effect/Fire_Impact1.efkefc"	scale="15.0" offsetX="85" offsetY="80" target="1"/>
+  <!--火＿スラッシュ-->
+  <Effect num="16" path="Data/Effect/Fire_Slash1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <!--火＿支援-->
+  <Effect num="17" path="Data/Effect/Fire_Support1.efkefc"	scale="50.0" offsetX="85" offsetY="150" target="1"/>
+  <!--火＿支援-->
+  <Effect num="18" path="Data/Effect/Fire_Support2.efkefc"	scale="30.0" offsetX="85" offsetY="160" target="1"/>
+
+ 
+  <!--水＿エレメント-->
+  <Effect num="19" path="Data/Effect/Water_Element1.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="20" path="Data/Effect/Water_Element2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="21" path="Data/Effect/Water_Element3.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="22" path="Data/Effect/Water_Element4.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="23" path="Data/Effect/Water_Element5.efkefc"	scale="10.0" offsetX="180" offsetY="80" target="1"/>
+  <Effect num="24" path="Data/Effect/Water_Element6.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="25" path="Data/Effect/Water_Element7.efkefc"	scale="60.0" offsetX="85" offsetY="150" target="1"/>
+  <Effect num="26" path="Data/Effect/Water_Element8.efkefc"	scale="30.0" offsetX="85" offsetY="160" target="1"/>
+  <Effect num="27" path="Data/Effect/Water_Element9.efkefc"	scale="30.0" offsetX="85" offsetY="130" target="1"/>
+  <Effect num="28" path="Data/Effect/Water_Element10.efkefc"  scale="20.0" offsetX="85" offsetY="160" target="1"/>
+  <!--水＿爆発-->
+  <Effect num="29" path="Data/Effect/Water_Explosion1.efkefc" scale="60.0" offsetX="85" offsetY="150" target="1"/>
+  <!--水＿衝撃-->
+  <Effect num="30" path="Data/Effect/Water_Impact1.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="31" path="Data/Effect/Water_Impact2.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="32" path="Data/Effect/Water_Impact3.efkefc"	scale="80.0" offsetX="85" offsetY="80" target="1"/>
+  <!--水＿スラッシュ-->
+  <Effect num="33" path="Data/Effect/Water_Slash1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="34" path="Data/Effect/Water_Slash2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="35" path="Data/Effect/Water_Slash3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="36" path="Data/Effect/Water_Slash4.efkefc"	scale="20.0" offsetX="200" offsetY="80" target="1"/>
+  <Effect num="37" path="Data/Effect/Water_Slash5.efkefc"	scale="80.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="38" path="Data/Effect/Water_Slash6.efkefc"	scale="40.0" offsetX="40" offsetY="130" target="1"/>
+  <!--水＿支援-->
+  <Effect num="39" path="Data/Effect/Water_Support1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="40" path="Data/Effect/Water_Support2.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/><!--エフェクト-->
+  <Effect num="41" path="Data/Effect/Water_Support3.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/>
+
+  <!--風＿全体-->
+  <Effect num="42" path="Data/Effect/Wind_AllAttack1.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="43" path="Data/Effect/Wind_AllAttack2.efkefc"	scale="25.0" offsetX="85" offsetY="0" target="0"/>
+  <Effect num="44" path="Data/Effect/Wind_AllAttack3.efkefc"	scale="25.0" offsetX="85" offsetY="0" target="0"/>
+  <!--風＿エレメント-->
+  <Effect num="45" path="Data/Effect/Wind_Element1.efkefc"	scale="8.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="46" path="Data/Effect/Wind_Element2.efkefc"	scale="20.0" offsetX="260" offsetY="80" target="1"/>
+  <Effect num="47" path="Data/Effect/Wind_Element3.efkefc"	scale="60.0" offsetX="85" offsetY="130" target="1"/>
+  <Effect num="48" path="Data/Effect/Wind_Element4.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="49" path="Data/Effect/Wind_Element5.efkefc"	scale="60.0" offsetX="85" offsetY="140" target="1"/>
+  <Effect num="50" path="Data/Effect/Wind_Element6.efkefc"	scale="40.0" offsetX="85" offsetY="160" target="1"/><!--エフェクト-->
+  <!--風＿スラッシュ-->
+  <Effect num="51" path="Data/Effect/Wind_Slash1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="52" path="Data/Effect/Wind_Slash2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="53" path="Data/Effect/Wind_Slash3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="54" path="Data/Effect/Wind_Slash4.efkefc"	scale="70.0" offsetX="85" offsetY="80" target="1"/><!--エフェクト-->
+  <Effect num="55" path="Data/Effect/Wind_Slash5.efkefc"	scale="80.0" offsetX="85" offsetY="80" target="1"/>
+  <!--風＿支援-->
+  <Effect num="56" path="Data/Effect/Wind_Support1.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="57" path="Data/Effect/Wind_Support2.efkefc"	scale="60.0" offsetX="40" offsetY="80" target="1"/><!--エフェクト　-->
+  <Effect num="58" path="Data/Effect/Wind_Support3.efkefc"	scale="80.0" offsetX="85" offsetY="150" target="1"/>
+ 
+
+  <!--地＿全体-->
+  <Effect num="59" path="Data/Effect/Earth_AllAttack1.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="60" path="Data/Effect/Earth_AllAttack2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="61" path="Data/Effect/Earth_AllAttack3.efkefc"	scale="60.0" offsetX="85" offsetY="190" target="0"/>
+  <!--地＿エレメント-->
+  <Effect num="62" path="Data/Effect/Earth_Element1.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="63" path="Data/Effect/Earth_Element2.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="64" path="Data/Effect/Earth_Element3.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="65" path="Data/Effect/Earth_Element4.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="66" path="Data/Effect/Earth_Element5.efkefc"	scale="55.0" offsetX="85" offsetY="80" target="1"/>
+  <!--地＿爆発-->
+  <Effect num="67" path="Data/Effect/Earth_Explosion1.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <!--地＿衝撃-->
+  <Effect num="68" path="Data/Effect/Earth_Impact1.efkefc"		scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="69" path="Data/Effect/Earth_Impact2.efkefc"		scale="40.0" offsetX="85" offsetY="80" target="1"/>
+
+ 
+  <!--聖＿全体-->
+  <Effect num="70" path="Data/Effect/Holy_AllAttack1.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="71" path="Data/Effect/Holy_AllAttack2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="72" path="Data/Effect/Holy_AllAttack3.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="73" path="Data/Effect/Holy_AllAttack4.efkefc"	scale="25.0" offsetX="85" offsetY="0" target="0"/>
+  <!--聖＿エレメント-->
+  <Effect num="74" path="Data/Effect/Holy_Element1.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="75" path="Data/Effect/Holy_Element2.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="76" path="Data/Effect/Holy_Element3.efkefc"	scale="10.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="77" path="Data/Effect/Holy_Element4.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="78" path="Data/Effect/Holy_Element5.efkefc"	scale="80.0" offsetX="85" offsetY="150" target="1"/>
+  <Effect num="79" path="Data/Effect/Holy_Element6.efkefc"	scale="20.0" offsetX="85" offsetY="100" target="1"/>
+  <Effect num="80" path="Data/Effect/Holy_Element7.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="81" path="Data/Effect/Holy_Element8.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <!--聖＿爆発-->
+  <Effect num="82" path="Data/Effect/Holy_Explosion1.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="83" path="Data/Effect/Holy_Explosion2.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="84" path="Data/Effect/Holy_Explosion3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="85" path="Data/Effect/Holy_Explosion4.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="86" path="Data/Effect/Holy_Impact1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="87" path="Data/Effect/Holy_Impact2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="88" path="Data/Effect/Holy_Impact3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="89" path="Data/Effect/Holy_Impact4.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="90" path="Data/Effect/Holy_Impact5.efkefc"	scale="30.0" offsetX="170" offsetY="80" target="1"/>
+  <Effect num="91" path="Data/Effect/Holy_Impact6.efkefc"	scale="20.0" offsetX="170" offsetY="80" target="1"/>
+  <Effect num="92" path="Data/Effect/Holy_Impact7.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <!--聖＿スラッシュ-->
+  <Effect num="93" path="Data/Effect/Holy_Slash1.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="94" path="Data/Effect/Holy_Slash2.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="95" path="Data/Effect/Holy_Slash3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="96" path="Data/Effect/Holy_Slash4.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="97" path="Data/Effect/Holy_Slash5.efkefc"	scale="50.0" offsetX="850" offsetY="80" target="1"/>
+  <Effect num="98" path="Data/Effect/Holy_Slash6.efkefc"	scale="30.0" offsetX="85" offsetY="120" target="1"/>
+  <!--聖＿支援-->
+  <Effect num="99" path="Data/Effect/Holy_Support1.efkefc"	scale="10.0" offsetX="85" offsetY="130" target="1"/>
+  <Effect num="100" path="Data/Effect/Holy_Support2.efkefc"	scale="70.0" offsetX="85" offsetY="150" target="1"/>
+
+
+  <!--闇＿全体-->
+  <Effect num="101" path="Data/Effect/Dark_AllAttack1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="102" path="Data/Effect/Dark_AllAttack2.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="0"/>
+  <Effect num="103" path="Data/Effect/Dark_AllAttack3.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="0"/>
+  <!--闇＿エレメント-->
+  <Effect num="104" path="Data/Effect/Dark_Element1.efkefc"		scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="105" path="Data/Effect/Dark_Element2.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="106" path="Data/Effect/Dark_Element3.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="107" path="Data/Effect/Dark_Element4.efkefc" scale="80.0" offsetX="85" offsetY="150" target="1"/>
+  <Effect num="108" path="Data/Effect/Dark_Element5.efkefc"	scale="30.0" offsetX="85" offsetY="120" target="1"/>
+  <Effect num="109" path="Data/Effect/Dark_Element6.efkefc"	scale="40.0" offsetX="85" offsetY="200" target="1"/>
+  <Effect num="110" path="Data/Effect/Dark_Element7.efkefc"	scale="12.0" offsetX="85" offsetY="100" target="1"/>
+  <Effect num="111" path="Data/Effect/Dark_Element8.efkefc" scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="112" path="Data/Effect/Dark_Element9.efkefc"	scale="90.0" offsetX="85" offsetY="140" target="1"/>
+  <!--闇＿爆発-->
+  <Effect num="113" path="Data/Effect/Dark_Explosion1.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="114" path="Data/Effect/Dark_Explosion2.efkefc"   scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="115" path="Data/Effect/Dark_Explosion3.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="116" path="Data/Effect/Dark_Explosion4.efkefc"	scale="60.0" offsetX="85" offsetY="140" target="1"/>
+  <!--闇＿衝撃-->
+  <Effect num="117" path="Data/Effect/Dark_Impact1.efkefc"	scale="20.0" offsetX="200" offsetY="80" target="1"/>
+  <!--闇＿スラッシュ-->
+  <Effect num="118" path="Data/Effect/Dark_Slash1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="119" path="Data/Effect/Dark_Slash2.efkefc"	scale="50.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="120" path="Data/Effect/Dark_Slash3.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="121" path="Data/Effect/Dark_Slash4.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="122" path="Data/Effect/Dark_Slash5.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="123" path="Data/Effect/Dark_Slash6.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/> 
+  <Effect num="124" path="Data/Effect/Dark_Slash7.efkefc"	scale="30.0" offsetX="360" offsetY="80" target="1"/>
+  <Effect num="125" path="Data/Effect/Dark_Slash8.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <!--闇＿支援-->
+  <Effect num="126" path="Data/Effect/Dark_Support1.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="127" path="Data/Effect/Dark_Support2.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="128" path="Data/Effect/Dark_Support3.efkefc"	scale="90.0" offsetX="85" offsetY="160" target="1"/>
+  <Effect num="129" path="Data/Effect/Dark_Support4.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="130" path="Data/Effect/Dark_Support5.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  
+  <!--ノーマル＿全体-->
+  <Effect num="131" path="Data/Effect/Normal_AllAttack1.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="0"/>
+  <!--ノーマル＿エレメント-->
+  <Effect num="132" path="Data/Effect/Normal_Element1.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="133" path="Data/Effect/Normal_Element2.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="134" path="Data/Effect/Normal_Element3.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="135" path="Data/Effect/Normal_Element4.efkefc"	scale="12.0" offsetX="85" offsetY="100" target="1"/>
+  <!--ノーマル＿衝撃-->
+  <Effect num="136" path="Data/Effect/Normal_Impact1.efkefc"	scale="25.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="137" path="Data/Effect/Normal_Impact2.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="138" path="Data/Effect/Normal_Impact3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="139" path="Data/Effect/Normal_Impact4.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="140" path="Data/Effect/Normal_Impact5.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="141" path="Data/Effect/Normal_Impact6.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="142" path="Data/Effect/Normal_Impact7.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="143" path="Data/Effect/Normal_Impact8.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <!--ノーマル＿衝撃--><!--注意-->
+  <Effect num="144" path="Data/Effect/Effect/Normal_Impact9.efkefc"	scale="15.0" offsetX="85" offsetY="240" target="1"/>
+  <!--ノーマル＿スラッシュ-->
+  <Effect num="145" path="Data/Effect/Normal_Slash1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="146" path="Data/Effect/Normal_Slash2.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="147" path="Data/Effect/Normal_Slash3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="148" path="Data/Effect/Normal_Slash4.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="149" path="Data/Effect/Normal_Slash5.efkefc"	scale="40.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="150" path="Data/Effect/Normal_Slash6.efkefc"	scale="60.0" offsetX="85" offsetY="80" target="1"/>
+  <!--ノーマル＿支援-->
+  <Effect num="151" path="Data/Effect/Normal_Support1.efkefc"	scale="30.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="152" path="Data/Effect/Normal_Support2.efkefc"	scale="20.0" offsetX="85" offsetY="140" target="1"/>
+  <Effect num="153" path="Data/Effect/Normal_Support3.efkefc"	scale="20.0" offsetX="85" offsetY="80" target="1"/>
+  <Effect num="154" path="Data/Effect/Normal_Support4.efkefc"	scale="30.0" offsetX="85" offsetY="140" target="1"/>
+  <Effect num="155" path="Data/Effect/Normal_Support5.efkefc"	scale="30.0" offsetX="85" offsetY="140" target="1"/>
+  <Effect num="156" path="Data/Effect/Normal_Support6.efkefc"	scale="45.0" offsetX="85" offsetY="140" target="1"/>
+  <Effect num="157" path="Data/Effect/Normal_Support7.efkefc"	scale="45.0" offsetX="85" offsetY="110" target="1"/>
+  <Effect num="158" path="Data/Effect/Normal_Support8.efkefc"	scale="30.0" offsetX="85" offsetY="160" target="1"/>
+  <Effect num="159" path="Data/Effect/Normal_Support9.efkefc"	scale="60.0" offsetX="85" offsetY="150" target="1"/>
+
+
+  <!--ノーマル＿ミス-->
+
+
+	
+</Data>

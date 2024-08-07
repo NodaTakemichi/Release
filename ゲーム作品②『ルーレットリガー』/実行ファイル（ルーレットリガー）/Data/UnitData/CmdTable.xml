@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Cmd name="Cmd" virsion="1.0">
+
+<!--コマンドテーブル-->
+	<!--通常技-->
+	<Skill num="0" name="ミス" type="MISS" target="NONE" times="0.0" efNum="135"/>
+	<Skill num="1" name="様子を見ている" type="MISS" target="NONE" times="0.0" efNum="135"/>
+	<Skill num="2" name="見下している" type="MISS" target="NONE" times="0.0" efNum="135"/>
+	<Skill num="3" name="こうげき"	 type="ATTACK" target="ENEMY" times="1.0" efNum="142"/>
+	<Skill num="4" name="かみつき"	 type="ATTACK" target="ENEMY" times="1.0" efNum="150"/>
+	<Skill num="5" name="渾身の一撃" type="ATTACK" target="ENEMY" times="1.5" efNum="143"/>
+	<Skill num="6" name="必殺の一撃" type="ATTACK" target="ENEMY" times="2.0" efNum="144"/>
+	<Skill num="7" name="ぶちかまし" type="ATTACK" target="ENEMY_ALL" times="1.2" efNum="142"/>
+	
+	<!--火山-->
+	<Skill num="100" name="ひのこ"	   type="ATTACK" target="ENEMY" times="1.2" efNum="13"/>
+	<Skill num="101" name="ほのうのこ" type="ATTACK" target="ENEMY" times="1.5" efNum="8"/>
+	<Skill num="102" name="熱いずつき" type="ATTACK" target="ENEMY" times="1.8" efNum="14"/>
+
+	<Skill num="103" name="ガスアタック" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="130"/>
+	<Skill num="104" name="ガスの体"	 type="BUFF" target="SELF"  buff="AVOIDANCE"  efNum="135"/>
+	<Skill num="105" name="毒ガス"		 type="BUFF" target="ENEMY" buff="POISON" efNum="110"/>
+
+	<Skill num="106" name="ちょうおんぱ" type="BUFF" target="ENEMY" buff="PALALYSIS" efNum="23"/>
+	<Skill num="107" name="うちきば"	 type="ATTACK" target="ENEMY" times="1.2" efNum="124"/>
+
+	<Skill num="108" name="太陽光"		  type="BUFF" target="ENEMY"   buff="D_DOWN"  efNum="138"/>
+	<Skill num="109" name="太陽とっしん"  type="ATTACK" target="ENEMY" times="1.2" efNum="10"/>
+	<Skill num="110" name="太陽サンサン" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="5"/>
+
+	<Skill num="111" name="鉱石化"		type="BUFF" target="SELF"   buff="D_UP"  efNum="64"/>
+	<Skill num="112" name="まもりの要" type="BUFF" target="PLAYER"   buff="D_UP"  efNum="154"/>
+	<Skill num="113"  name="石つぶて"  type="ATTACK" target="ENEMY" times="1.2" efNum="65"/>
+
+	<Skill num="114" name="恨炎"		type="ATTACK" target="ENEMY" times="1.2" efNum="4"/>
+	<Skill num="115" name="怨炎"		type="ATTACK" target="ENEMY" times="1.5" efNum="3"/>
+	<Skill num="116" name="ほのおの体" type="BUFF" target="SELF"  buff="AVOIDANCE"  efNum="17"/>
+
+	<Skill num="117" name="狐火"		type="ATTACK" target="ENEMY" times="1.2" efNum="9"/>
+	<Skill num="118" name="狐の宴会"   type="BUFF" target="PLAYER_ALL"   buff="P_UP"  efNum="18"/>
+	<Skill num="119" name="厄火"		type="ATTACK" target="ENEMY" times="1.5" efNum="3"/>
+
+	<Skill num="120" name="ゲヘナフレイム"   type="ATTACK" target="ENEMY" times="1.2" efNum="11"/>
+	<Skill num="121" name="フローガ"		  type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="0"/>
+	<Skill num="122" name="ヴェノムファング" type="BUFF" target="ENEMY"   buff="POISON"  efNum="118"/>
+
+	<Skill num="123" name="ブレイジング"   type="ATTACK" target="ENEMY" times="1.2" efNum="12"/>
+	<Skill num="124" name="ノーボルケーノ" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="6"/>
+	<Skill num="125" name="エクスラッシュ" type="ATTACK" target="ENEMY" times="1.5" efNum="16"/>
+
+	<Skill num="126" name="フラム"		  type="ATTACK" target="ENEMY" times="1.2" efNum="7"/>
+	<Skill num="127" name="インフェルノ" type="ATTACK" target="ENEMY" times="1.5" efNum="2"/>
+	<Skill num="128" name="ボルカニク"	  type="ATTACK" target="ENEMY_ALL" times="1.5" efNum="11"/>
+	<Skill num="129" name="ノヴァ"	      type="ATTACK" target="ENEMY_ALL" times="1.8" efNum="1"/>
+	
+	<!--海-->
+	<Skill num="200" name="とっしん" type="ATTACK" target="ENEMY" times="1.2" efNum="134"/>
+	<Skill num="201" name="スプラッシュ" type="ATTACK" target="ENEMY" times="1.5" efNum="27"/>
+	<Skill num="202" name="みずのあわ" type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="21"/>
+
+	<Skill num="203" name="モチモチ！" type="HEAL" target="PLAYER" times="1.0" efNum="99"/>
+	<Skill num="204" name="フニャフニャ！" type="BUFF" target="ENEMY"   buff="POISON" efNum="108"/>
+	<Skill num="205" name="モチフニャ！！" type="ATTACK" target="ENEMY" times="1.2" efNum="19"/>
+
+	<Skill num="206" name="かくれる" type="BUFF" target="SELF"   buff="AVOIDANCE"  efNum="153"/>
+	<Skill num="207" name="みをまもる" type="BUFF" target="SELF"   buff="D_UP" efNum="64"/>
+	<Skill num="208" name="すなつぶて" type="ATTACK" target="ENEMY" times="1.2" efNum="37"/>
+	
+	<Skill num="209" name="触手打" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="12"/>
+	<Skill num="210" name="スプラッシュ" type="ATTACK" target="ENEMY" times="1.2" efNum="27"/>
+	<Skill num="211" name="触手乱打" type="ATTACK" target="ENEMY" times="1.8" efNum="30"/>
+	
+	<Skill num="212" name="守護陣" type="BUFF" target="PLAYER"   buff="D_UP" efNum="39"/>
+	<Skill num="213" name="守護ナゾナゾ" type="BUFF" target="ENEMY"   buff="P_DOWN" efNum="152"/>
+	<Skill num="214" name="守護アタック" type="ATTACK" target="ENEMY" times="1.2" efNum="20"/>
+	
+	<Skill num="215" name="おいかぜ" type="BUFF" target="PLAYER_ALL" buff="S_UP" efNum="47"/>
+	<Skill num="216" name="北風とっぷう" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="47"/>
+	<Skill num="217" name="北風サンダツ" type="ATTACK" target="ENEMY" times="1.5" efNum="34"/>
+	
+	<Skill num="218" name="武神ノ亀甲" type="BUFF" target="PLAYER_ALL"   buff="D_UP" efNum="39"/>
+	<Skill num="219" name="亀卜ノ信託" type="HEAL" target="PLAYER" times="1.5" efNum="41"/>
+	<Skill num="220" name="玄武ノ大水" type="ATTACK" target="ENEMY" times="1.5" efNum="25"/>
+	
+	<Skill num="221" name="アイスランス" type="ATTACK" target="ENEMY" times="1.2" efNum="38"/>
+	<Skill num="222" name="ディスフロクト" type="ATTACK" target="ENEMY" times="1.5" efNum="35"/>
+	<Skill num="223" name="アイスブルーム" type="ATTACK" target="ENEMY" times="1.8" efNum="33"/>
+	
+	<Skill num="224" name="グランドダイパン" type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="143"/>
+	<Skill num="225" name="巨人の剛腕" type="ATTACK" target="ENEMY" times="1.2" efNum="29"/>
+	<Skill num="226" name="巨人の一撃" type="ATTACK" target="ENEMY" times="1.5" efNum="138"/>
+	
+	<Skill num="227" name="大時化" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="21"/>
+	<Skill num="228" name="巨浪海蝕" type="ATTACK" target="ENEMY" times="1.5" efNum="31"/>
+	<Skill num="229" name="怒濤海洋" type="ATTACK" target="ENEMY_ALL" times="1.2" efNum="28"/>
+	
+	<!--荒野-->
+	<Skill num="300" name="わしづかみ" type="ATTACK" target="ENEMY" times="1.2" efNum="141"/>
+	<Skill num="301" name="ぶんなぐり" type="ATTACK" target="ENEMY" times="1.5" efNum="143"/>
+	
+	<Skill num="302" name="とつげき！" type="ATTACK" target="ENEMY" times="1.2" efNum="142"/>
+	<Skill num="303" name="とつげき！！" type="ATTACK" target="ENEMY" times="1.5" efNum="141"/>
+	<Skill num="304" name="とつげき！!！" type="ATTACK" target="ENEMY"   times="2.0" efNum="143"/>
+	
+	<Skill num="305" name="スキンケア" type="HEAL" target="SELF" times="1.5" efNum="156"/>
+	<Skill num="306" name="ホータイ" type="HEAL" target="PLAYER" times="1.2" efNum="99"/>
+	<Skill num="307" name="ホータイホバク" type="BUFF" target="ENEMY" buff="PALALYSIS" efNum="135"/>
+
+	<Skill num="308" name="立ち塞ぐ" type="BUFF" target="SELF" buff="D_UP" efNum="68"/>
+	<Skill num="309" name="叩き潰す" type="ATTACK" target="ENEMY" times="1.2" efNum="67"/>
+	<Skill num="310" name="暴れる" type="ATTACK" target="ENEMY_ALL" times="1.5" efNum="141"/>
+	
+	<Skill num="311" name="はしりまわり" type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="144"/>
+	<Skill num="312" name="蹄の烙印"	 type="ATTACK" target="ENEMY" times="1.5" efNum="62"/>
+	<Skill num="313" name="王者の嘶き" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="131"/>
+	
+	<Skill num="314" name="あざむく" type="BUFF" target="SELF"   buff="AVOIDANCE" efNum="153"/>
+	<Skill num="315" name="あざわらう" type="BUFF" target="ENEMY"   buff="D_DOWN" efNum="152"/>
+	<Skill num="316" name="ゆうわく" type="BUFF" target="ENEMY"   buff="P_DOWN" efNum="155"/>
+	
+	<Skill num="317" name="レックスバイト" type="ATTACK" target="ENEMY" times="1.2" efNum="136"/>
+	<Skill num="318" name="レックススタンプ" type="ATTACK" target="ENEMY" times="1.5" efNum="138"/>
+	<Skill num="319" name="ドロップキック" type="ATTACK" target="ENEMY" times="1.8" efNum="117"/>
+	
+	<Skill num="320" name="アレハダ" type="BUFF" target="ENEMY"   buff="D_DOWN" efNum="110"/>
+	<Skill num="321" name="腐食肌"	type="ATTACK" target="ENEMY" times="1.2" efNum="113"/>
+	<Skill num="322" name="毒の包帯" type="BUFF" target="ENEMY"   buff="POISON" efNum="108"/>
+	
+	<Skill num="323" name="めったなぐり" type="ATTACK" target="ENEMY" times="1.5" efNum="141"/>
+	<Skill num="324" name="みんちなぐり" type="ATTACK" target="ENEMY" times="1.8" efNum="144"/>
+	
+	<Skill num="325" name="砂塵の嘆き" type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="61"/>
+	<Skill num="326" name="大地の叫び" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="59"/>
+	<Skill num="327" name="大陸の怒り" type="ATTACK" target="ENEMY_ALL" times="1.2" efNum="60"/>
+	
+	<!--森-->
+	<Skill num="400" name="とける" type="HEAL" target="SELF" times="1.2" efNum="108"/>
+	<Skill num="401" name="溶かす" type="ATTACK" target="ENEMY" times="1.2" efNum="130"/>
+	<Skill num="402" name="硝酸"   type="ATTACK" target="ENEMY" times="1.5" efNum="157"/>
+	<Skill num="403" name="溶解液" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="157"/>
+	<Skill num="404" name="マヒ液" type="BUFF" target="ENEMY" buff="PALALYSIS" efNum="108"/>
+	<Skill num="405" name="ドク液" type="BUFF" target="ENEMY" buff="POISON" efNum="108"/>
+	
+	<Skill num="406" name="励ます" type="BUFF" target="PLAYER" buff="P_UP" efNum="58"/>
+	<Skill num="407" name="タケずつき" type="ATTACK" target="ENEMY" times="1.2" efNum="55"/>
+	
+	<Skill num="408" name="根をはる" type="HEAL" target="SELF" times="1.2" efNum="57"/>
+	<Skill num="409" name="悲鳴" type="BUFF" target="ENEMY" buff="S_DOWN" efNum="153"/>
+	<Skill num="410" name="叫び声" type="ATTACK" target="ENEMY" times="1.2" efNum="47"/>
+	
+	<Skill num="411" name="ハイフィーバー" type="BUFF" target="ENEMY_ALL" buff="S_DOWN" efNum="57"/>
+  <Skill num="412" name="ヘッドバッド"	type="ATTACK" target="ENEMY" times="1.2" efNum="48"/>
+	<Skill num="413" name="クシャミ"		type="ATTACK" target="ENEMY" times="1.5" efNum="46"/>
+	
+	<Skill num="414" name="ヒールライト" type="HEAL" target="PLAYER"   times="1.2" efNum="108"/>
+	<Skill num="415" name="ヒールオーラ" type="HEAL" target="PLAYER_ALL"   times="1.0" efNum="108"/>
+  <Skill num="416" name="マッハオーラ" type="BUFF" target="PLAYER_ALL"   buff="S_UP" efNum="154"/>
+
+  <Skill num="417" name="クロー" type="ATTACK" target="ENEMY" times="1.2" efNum="146"/>
+	<Skill num="418" name="ブロー" type="ATTACK" target="ENEMY" times="1.5" efNum="48"/>
+	<Skill num="419" name="ガオー" type="ATTACK" target="ENEMY" times="1.8" efNum="51"/>
+	
+	<Skill num="420" name="デリーウィップ"		type="ATTACK" target="ENEMY" times="1.2" efNum="55"/>
+	<Skill num="421" name="デリーダウン"	type="ATTACK" target="ENEMY" times="1.5" efNum="45"/>
+	<Skill num="422" name="枯れた森"		type="BUFF" target="ENEMY_ALL"   buff="D_DOWN" efNum="129"/>
+	
+	<Skill num="423" name="風陣・春嵐"   type="BUFF" target="PLAYER_ALL" buff="P_UP" efNum="56"/>
+	<Skill num="424" name="風刃・太刀風" type="ATTACK" target="ENEMY" times="1.2" efNum="52"/>
+	<Skill num="425" name="風神・神風"   type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="42"/>
+
+	<!--聖域-->
+	<Skill num="500" name="アタック" type="ATTACK" target="ENEMY" times="1.2" efNum="84"/>
+	<Skill num="501" name="バルス"   type="BUFF" target="SELF"   buff="AVOIDANCE" efNum="153"/>
+	
+	<Skill num="502" name="ひっかき"		type="ATTACK" target="ENEMY" times="1.2" efNum="146"/>
+	<Skill num="503" name="みだれひっかき"  type="ATTACK" target="ENEMY_ALL" times="2.0" efNum="94"/>
+	
+	<Skill num="504" name="イヤス"			type="HEAL" target="PLAYER"   times="1.2" efNum="99"/>
+	<Skill num="505" name="ジュウデン"		type="BUFF" target="SELF"   buff="S_UP"  efNum="79"/>
+	<Skill num="506" name="ヤルキスイッチ"  type="BUFF" target="PLAYER"   buff="P_UP"  efNum="76"/>
+	
+	<Skill num="507" name="たいあたり"	 type="ATTACK" target="ENEMY" times="1.2" efNum="84"/>
+	<Skill num="508" name="角突き"		 type="ATTACK" target="ENEMY" times="1.5" efNum="85"/>
+	<Skill num="509" name="ライトホーン" type="ATTACK" target="ENEMY" times="1.8" efNum="75"/>
+	
+	<Skill num="510" name="スパーク"	 type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="78"/>
+	<Skill num="511" name="ライトニング" type="ATTACK" target="ENEMY" times="1.2" efNum="98"/>
+	<Skill num="512" name="サンダー"	 type="ATTACK" target="ENEMY" times="1.5" efNum="81"/>
+	
+	<Skill num="513" name="チャージ"		 type="BUFF" target="SELF"   buff="P_UP" efNum="79"/>
+	<Skill num="514" name="ジェネレーション" type="HEAL" target="PLAYER" times="1.5" efNum="99"/>
+	<Skill num="515" name="ダイナモパンチ"	 type="ATTACK" target="ENEMY" times="1.2" efNum="82"/>
+	
+	<Skill num="516" name="星★ホープ"	 type="BUFF" target="ENEMY_ALL" buff="D_DOWN" efNum="105"/>
+	<Skill num="517" name="星★ボミング" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="71"/>
+	<Skill num="518" name="星★パンチ"   type="ATTACK" target="ENEMY" times="1.5" efNum="87"/>
+	
+	<Skill num="519" name="精神統一" type="BUFF" target="SELF" buff="P_UP" efNum="100"/>
+	<Skill num="520" name="達磨切り" type="ATTACK" target="ENEMY" times="1.5" efNum="95"/>
+	<Skill num="521" name="星屑切り" type="ATTACK" target="ENEMY_ALL" times="1.2" efNum="72"/>
+	
+	<Skill num="522" name="鐘鳴り" type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="88"/>
+	<Skill num="523" name="袋叩き" type="ATTACK" target="ENEMY" times="1.2" efNum="89"/>
+	<Skill num="524" name="星砕き" type="ATTACK" target="ENEMY" times="1.5" efNum="86"/>
+	
+	<Skill num="525" name="セイン" type="ATTACK" target="ENEMY" times="1.2" efNum="74"/>
+	<Skill num="526" name="ホーリー" type="ATTACK" target="ENEMY" times="1.5" efNum="77"/>
+	<Skill num="527" name="ヘブン" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="80"/>
+  
+	<!--奈落-->
+	<Skill num="600" name="とりつく" type="BUFF" target="ENEMY"   buff="S_DOWN" efNum="129"/>
+	<Skill num="601" name="たたる"   type="ATTACK" target="ENEMY" times="1.2" efNum="114"/>
+	
+	<Skill num="602" name="トラップ"	type="BUFF" target="ENEMY" buff="POISON" efNum="113"/>
+	<Skill num="603" name="擬態"		type="BUFF" target="SELF" buff="AVOIDANCE" efNum="126"/>
+	<Skill num="604" name="トラバサミ"	type="ATTACK" target="ENEMY"   times="1.2" efNum="124"/>
+  
+	<Skill num="605" name="オメメノトレタ"	type="ATTACK" target="ENEMY" times="1.2"  efNum="116"/>
+	<Skill num="606" name="オナカノナカミ"  type="BUFF" target="PLAYER"   buff="P_UP"  efNum="130"/>
+  <Skill num="607" name="ヤイバノハサミ"	type="ATTACK" target="ENEMY" times="1.5" efNum="125"/>
+  
+	<Skill num="608" name="ギョロリ"	type="BUFF" target="ENEMY_ALL"  buff="P_DOWN" efNum="111"/>
+	<Skill num="609" name="ジー"		type="BUFF" target="ENEMY"  buff="D_DOWN" efNum="108"/>
+	<Skill num="610" name="ギロッ"	  type="ATTACK" target="ENEMY" times="1.2" efNum="107"/>
+  
+	<Skill num="611" name="火を噴く"	type="ATTACK" target="ENEMY_ALL" times="0.8" efNum="6"/>
+ 	<Skill num="612" name="のしかかる"	type="ATTACK" target="ENEMY" times="1.2" efNum="134"/>
+  <Skill num="613" name="雷を放つ"	type="ATTACK" target="ENEMY" times="1.5" efNum="81"/>
+  
+	<Skill num="614" name="トリック" type="ATTACK" target="ENEMY" times="1.5" efNum="127"/>
+	<Skill num="615" name="トリート" type="HEAL" target="PLAYER" times="1.5" efNum="99"/>
+	<Skill num="616" name="ランタン" type="BUFF" target="PLAYER" buff="AVOIDANCE" efNum="104"/>
+  
+	<Skill num="617" name="ベイン" type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="105"/>
+	<Skill num="618" name="ディアル"   type="ATTACK" target="ENEMY" times="1.5" efNum="121"/>
+	<Skill num="619" name="イビル" type="BUFF" target="SELF" buff="P_UP" efNum="128"/>
+  
+	<Skill num="620" name="毒爪" type="BUFF" target="ENEMY" buff="POISON" efNum="119"/>
+	<Skill num="621" name="麻痺爪" type="BUFF" target="ENEMY" buff="PALALYSIS" efNum="118"/>
+	<Skill num="622" name="鋭い爪" type="ATTACK" target="ENEMY_ALL" times="1.2" efNum="120"/>
+  
+	<Skill num="623" name="影踏み" type="ATTACK" target="ENEMY" times="1.2" efNum="111"/>
+	<Skill num="624" name="不意打ち" type="ATTACK" target="ENEMY" times="1.5" efNum="124"/>
+	<Skill num="625" name="八つ裂き" type="ATTACK" target="ENEMY" times="1.8" efNum="123"/>
+  
+	<Skill num="626" name="カンタータ" type="ATTACK" target="ENEMY" times="1.8" efNum="107"/>
+	<Skill num="627" name="レクイエム" type="ATTACK" target="ENEMY_ALL" times="1.5" efNum="103"/>
+
+	
+	<!--その他-->
+	<Skill num="700" name="怪力" type="ATTACK" target="ENEMY" times="1.5" efNum="144"/>
+	<Skill num="701" name="剛力" type="ATTACK" target="ENEMY" times="2.0" efNum="143"/>
+	<Skill num="702" name="万力" type="ATTACK" target="ENEMY" times="2.2" efNum="141"/>
+
+	<Skill num="703" name="ブリザード"	 type="ATTACK" target="ENEMY_ALL" times="1.0" efNum="26"/>
+	<Skill num="704" name="スノー"		 type="ATTACK" target="ENEMY"   times="1.2" efNum="24"/>
+	<Skill num="705" name="アイスクロウ" type="ATTACK" target="ENEMY"   times="1.5" efNum="148"/>
+
+	<Skill num="706" name="いやす" type="HEAL" target="PLAYER" times="1.0" efNum="156"/>
+	<Skill num="707" name="ヒール" type="HEAL" target="PLAYER" times="1.5" efNum="157"/>
+	<Skill num="708" name="キュアシャワー" type="HEAL" target="PLAYER_ALL" times="1.0" efNum="156"/>
+
+	<Skill num="709" name="アビス！" type="BUFF" target="ENEMY" buff="PALALYSIS" efNum="109"/>
+	<Skill num="710" name="ダーク！" type="BUFF" target="PLAYER" buff="AVOIDANCE" efNum="110"/>
+	<Skill num="711" name="サバト！" type="BUFF" target="PLAYER_ALL" buff="S_UP" efNum="128"/>
+  
+  
+</Cmd>
